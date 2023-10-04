@@ -1,0 +1,40 @@
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    padding: 0 15px;
+    background-color: rgb(194, 229, 218);
+    border: 1px solid rgb(254, 252, 252);
+    border-radius: 20px;
+}
+.footer-container .pagination{
+    display: flex;
+    /* border: 2px solid red; */
+}
+.pagination li{
+    list-style-type: none;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(241, 238, 234);
+    margin: 0 5px;
+}
+.pagination .active{
+    background-color: rgb(232, 118, 118);
+}
+.pagination li:hover{
+    cursor: pointer;
+}
+.pagination button{
+    border: none;
+    background: none;
+}
+.pagination button:disabled{
+    cursor: not-allowed;
+}
+.previoues{
+    margin: auto;
+}

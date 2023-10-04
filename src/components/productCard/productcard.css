@@ -1,0 +1,80 @@
+.product-container{
+    /* border: 3px solid blue; */
+    width: 460px;
+    height: auto;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(34, 34, 35, 0.2) 0px 7px 29px 0px;
+}
+.product-card-c-1,.product-card-c-2,.product-card-c-3,.product-card-c-4{
+    display: flex;
+    /* border: 2px solid red; */
+}
+.product-card-c-1{
+    width: 90%;
+    justify-content: space-between;
+}
+.product-card-c-1 .year{
+    border: 2px dotted rgb(55, 143, 237);
+    border-radius: 10px;
+    padding: 2px 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.product-card-c-2{
+    justify-content: space-between;
+    width: 60%;
+    row-gap: 30px;
+    font-size: 13px;
+    color: rgb(52, 52, 52);
+    /* border: 2px solid red; */
+}
+.product-card-c-3 .mileage{
+    /* border: 2px solid blue; */
+    width: 100px;
+    display: inline-block;
+}
+.product-card-c-3 {
+    justify-content: space-between;
+    width: 65%;
+    /* border: 2px solid red; */
+    font-size: 13px;
+    color: rgb(52, 52, 52);
+}
+.product-container .icon{
+color: rgb(55, 143, 237);
+margin-right: 5px;
+}
+.product-card-c-4{
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(234, 228, 228);
+    padding-top: 10px;
+}
+.product-card-c-4 .emi{
+    font-weight: 600;
+}
+.product-card-c-4 button{
+    background-color: rgb(35, 162, 241);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: 12px;
+}
+.product-card-c-4 .heart-rent{
+    display: flex;
+    align-items: flex-start;
+}
+.product-card-c-4 .icon{
+    margin-right: 40px;
+    background-color: rgb(212, 234, 240);
+    /* border: 2px solid red; */
+    padding: 3px;
+    border-radius: 5px;
+}
